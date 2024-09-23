@@ -23,9 +23,10 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-
+    namespace 'ru.innim.flutter_login_facebook'
     defaultConfig {
         minSdkVersion 16
+        applicationId 'ru.innim.flutter_login_facebook'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
