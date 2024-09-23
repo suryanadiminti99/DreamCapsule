@@ -26,7 +26,6 @@ android {
     namespace 'ru.innim.flutter_login_facebook'
     defaultConfig {
         minSdkVersion 16
-        applicationId 'ru.innim.flutter_login_facebook'
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
